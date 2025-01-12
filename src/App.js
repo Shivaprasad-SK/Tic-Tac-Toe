@@ -16,7 +16,7 @@ function App() {
   ];
 
   const handleClick = (index) => {
-    console.log("Button clicked", index);
+    // console.log("Button clicked", index);
     if (board[index] == "") {
       const newBoard = [...board];
       newBoard[index] = isNextX ? "O" : "X";
@@ -52,7 +52,12 @@ function App() {
       <h1>Tic Toc Toe</h1>
       <div className="container">
         {board.map((square, index) => (
-          <button key={index} value={square} onClick={() => handleClick(index)}>
+          <button
+            key={index}
+            value={square}
+            onClick={() => handleClick(index)}
+            disabled={draw || winner}
+          >
             {square}
           </button>
         ))}
