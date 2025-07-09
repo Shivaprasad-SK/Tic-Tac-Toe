@@ -5,6 +5,7 @@ body {
   align-items: center;
   justify-content:center;
   
+  margin-left:20%;
 }
 
 .container {
@@ -13,7 +14,6 @@ body {
   grid-template-rows: repeat(3, 100px);
   gap: 5px;
   margin: 20px auto;
-  margin-left:20%;
 }
 .btn {
   display: grid;
