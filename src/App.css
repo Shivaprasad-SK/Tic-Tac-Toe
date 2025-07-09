@@ -14,14 +14,14 @@ body {
   gap: 5px;
   margin: 20px auto;
   
-   margin-left:30%;
+   margin-left:35%;
 }
 .btn {
   display: grid;
   grid-template-columns: repeat(1, 310px);
   grid-template-rows: repeat(1, 50px);
   
-  margin-left:30%;
+  margin-left:35%;
 }
 h1 {
   text-align: center;
