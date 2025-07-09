@@ -13,6 +13,7 @@ body {
   grid-template-rows: repeat(3, 100px);
   gap: 5px;
   margin: 20px auto;
+  margin-left:20%;
 }
 .btn {
   display: grid;
