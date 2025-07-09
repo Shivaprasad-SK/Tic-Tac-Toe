@@ -21,7 +21,7 @@ body {
   grid-template-columns: repeat(1, 310px);
   grid-template-rows: repeat(1, 50px);
   
-  margin-left:20%;
+  margin-left:10%;
 }
 h1 {
   text-align: center;
